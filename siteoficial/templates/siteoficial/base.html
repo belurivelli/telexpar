@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery.flexslider.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+    <title>Telexpar</title>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide"
+
+        });
+    });
+    </script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 210,
+            itemMargin: 5
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_nav_wrapper">
+            <img class="logo_header" src="{% static 'img/logo_telexpar.png' %}" />
+            <div class="contenedor_header_derecha">
+                <div class="contenedor_contac_empresa">
+                    <div class="cuadritos_header">
+                        <a class="a_type" href="{% url 'siteoficial.views.institucional' %}">
+                            <img class="logo_contac_empresa" src="{% static 'img/icono_empresa.png' %}" onmouseover="this.src='{% static 'img/icono_empresa_0.png' %}';" onmouseout="this.src='{% static 'img/icono_empresa.png' %}';" />
+                            <p class="texto_contac_empresa">La empresa</p>
+                        </a>
+                    </div>
+                    <div class="cuadritos_header">
+                        <a class="a_type" href="{% url 'siteoficial.views.exportacion' %}">
+                            <img class="logo_contac_empresa" src="{% static 'img/icono_exportacion.png' %}" onmouseover="this.src='{% static 'img/icono_exportacion_0.png' %}';" onmouseout="this.src='{% static 'img/icono_exportacion.png' %}';" />
+                            <p class="texto_contac_empresa">Exportación</p>
+                        </a>
+                    </div>
+                    <div class="cuadritos_header">
+                        <a class="a_type" href="{% url 'siteoficial.views.contactos' %}">
+                            <img class="logo_contac_empresa" src="{% static 'img/icono_contactos.png' %}" onmouseover="this.src='{% static 'img/icono_contactos_0.png' %}';" onmouseout="this.src='{% static 'img/icono_contactos.png' %}';"/>
+                            <p class="texto_contac_empresa">Contactos</p>
+                        </a>
+                    </div>
+                    <div class="cuadritos_header">
+                        <a class="a_type" href="{% url 'siteoficial.views.login' %}">
+                            <img class="logo_contac_empresa" src="{% static 'img/icono_login.png' %}" onmouseover="this.src='{% static 'img/icono_login_0.png' %}';" onmouseout="this.src='{% static 'img/icono_login.png' %}';"/>
+                            <p class="texto_contac_empresa">Login</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="contenedor_buscar_header">
+                    <div class="form_contacto">
+                        <input class="input_text" placeholder="Buscar">
+                    </div>
+                </div>
+                <img class="logo_lupa" src="{% static 'img/boton_buscar.png' %}"  onmouseover="this.src='{% static 'img/boton_buscar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_buscar.png' %}';" />
+            </div>
+            <div class="clear"></div>
+            <div class="menu_nav_wrapper2">
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.index' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_inicio.png' %}" onmouseover="this.src='{% static 'img/icono_inicio_0.png' %}';" onmouseout="this.src='{% static 'img/icono_inicio.png' %}';" />
+                        <p class="texto_opciones">Inicio</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_oficina.png' %}" onmouseover="this.src='{% static 'img/icono_oficina_0.png' %}';" onmouseout="this.src='{% static 'img/icono_oficina.png' %}';" />
+                        <p class="texto_opciones">Oficina</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_escolar.png' %}" onmouseover="this.src='{% static 'img/icono_escolar_0.png' %}';" onmouseout="this.src='{% static 'img/icono_escolar.png' %}';" />
+                        <p class="texto_opciones">Escolar</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_informatica.png' %}" onmouseover="this.src='{% static 'img/icono_informatica_0.png' %}';" onmouseout="this.src='{% static 'img/icono_informatica.png' %}';" />
+                        <p class="texto_opciones">Informática</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_limpieza.png' %}" onmouseover="this.src='{% static 'img/icono_limpieza_0.png' %}';" onmouseout="this.src='{% static 'img/icono_limpieza.png' %}';" />
+                        <p class="texto_opciones">Limpieza</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_juguetes.png' %}" onmouseover="this.src='{% static 'img/icono_juguetes_0.png' %}';" onmouseout="this.src='{% static 'img/icono_juguetes.png' %}';" />
+                        <p class="texto_opciones">Juguetes</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_regalos.png' %}" onmouseover="this.src='{% static 'img/icono_regalos_0.png' %}';" onmouseout="this.src='{% static 'img/icono_regalos.png' %}';" />
+                        <p class="texto_opciones">Cotillón</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_ferreteria.png' %}" onmouseover="this.src='{% static 'img/icono_ferreteria_0.png' %}';" onmouseout="this.src='{% static 'img/icono_ferreteria.png' %}';"/>
+                        <p class="texto_opciones">Ferretería</p>
+                    </a>
+                </div>
+                <div class="cuadritos_opciones">
+                    <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                        <img class="logo_opciones" src="{% static 'img/icono_imprentas.png' %}" onmouseover="this.src='{% static 'img/icono_imprentas_0.png' %}';" onmouseout="this.src='{% static 'img/icono_imprentas.png' %}';"/>
+                        <p class="texto_opciones">Personalizado</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    {% block content %} {% endblock %}
+    <footer>
+        <div class="final">
+            <div class="inner-content-footer">
+                <div class="contenedor_footer">
+                    <p class="texto_suscribirse">SUSCRIBIRSE</p>
+                    <p class="texto_newsletter">AL NEWSLETTER</p>
+                    <form id="msform">
+                        <div class="contenedor_newsletter">
+                            <div class="form_contacto">
+                                <input class="input_text_newsletter" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="contenedor_newsletter">
+                            <div class="form_contacto">
+                                <input class="input_text_newsletter" placeholder="e-mail">
+                            </div>
+                        </div>
+                        <input type="image" class="buttom_enviar" src="{% static 'img/boton_enviar.png' %}"  onmouseover="this.src='{% static 'img/boton_enviar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_enviar.png' %}';">
+                    </form>
+                </div>
+                <div class="contenedor_productos_footer">
+                    <p class="texto_productos">PRODUCTOS</p>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_azul.png' %}" />
+                            <p class="texto_productos_footer">Oficina</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_verde.png' %}" />
+                            <p class="texto_productos_footer">Escolar</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                            <p class="texto_productos_footer">Informática</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_celeste.png' %}" />
+                            <p class="texto_productos_footer">Limpieza</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_roja.png' %}" />
+                            <p class="texto_productos_footer">Juguetes</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_rosa.png' %}" />
+                            <p class="texto_productos_footer">Cotillón</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_productos">
+                        <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_naranja.png' %}" />
+                            <p class="texto_productos_footer">Ferretería</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="contenedor_empresa_footer">
+                    <p class="texto_laempresa">INSTITUCIONAL</p>
+                    <div class="contenedor_empresa">
+                        <a class="a_type" href="{% url 'siteoficial.views.institucional' %}">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">La Empresa</p>
+                        </a>
+                    </div>
+                    <!--<div class="contenedor_empresa">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">Quienes Somos</p>
+                    </div>
+                    <div class="contenedor_empresa">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">Misión</p>
+                    </div>-->
+                    <div class="contenedor_empresa">
+                        <a class="a_type" href="{% url 'siteoficial.views.exportacion' %}">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">Exportacion</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_empresa">
+                        <a class="a_type" href="{% url 'siteoficial.views.contactos' %}">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">Contactos</p>
+                        </a>
+                    </div>
+                    <div class="contenedor_empresa">
+                        <a class="a_type" href="{% url 'siteoficial.views.login' %}">
+                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                        <p class="texto_productos_footer">Login</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="inner-content-footer">
+                <div class="contenedor_info_contactos">
+                    <img class="iconos_info_contactos" src="{% static 'img/icono_telefono.png' %}" />
+                    <p class="texto_info_contactos">+595 21 440 992</p>
+                </div>
+                <div class="contenedor_info_contactos">
+                    <img class="iconos_info_contactos" src="{% static 'img/icono_mail.png' %}" />
+                    <p class="texto_info_contactos">ventas@click.com.py</p>
+                </div>
+                <div class="contenedor_info_contactos">
+                    <img class="iconos_info_contactos" src="{% static 'img/icono_direccion.png' %}" />
+                    <p class="texto_info_contactos">Luís Alberto de Herrera
+                        <br>647 casi Antequera</p>
+                    <p class="texto_localidad">Asunción - Paraguay</p>
+                </div>
+                <div class="contenedor_info_contactos">
+                    <img class="iconos_info_contactos" src="{% static 'img/icono_facebook.png' %}" />
+                    <p class="texto_info_contactos">Telexpar S.R.L</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+</body>
+
+</html>

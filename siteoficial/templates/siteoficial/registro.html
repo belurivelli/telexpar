@@ -1,0 +1,76 @@
+{% extends 'siteoficial/base.html' %} {% block content %} {% load staticfiles %}
+<div class="inner_context_oficina">
+    <div>
+        <img class="logo_seccion_producto" src="{% static 'img/icono_login.png' %}" />
+        <p class="titulo_contactenos">Registro</p>
+    </div>
+    <div class="contenedor_izquierdo_registro">
+        <div>
+            <p class="texto_datos_registro"> Nombre de usuario</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Contraseña</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Repetir Contraseña</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Nro de C.I. o R.U.C</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> E-mail</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Teléfono</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> País</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Dirección</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+        <div>
+            <p class="texto_datos_registro"> Ciudad</p>
+            <div class="contenedor_datos_registro">
+                <input class="input_text_registro">
+                </input>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor_derecha_registro">
+    	<img class="imagen_registro"  src="{% static 'img/imagen_registro.png' %}" />
+    </div>
+</div>
+{% endblock %}

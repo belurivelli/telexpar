@@ -1,0 +1,45 @@
+{% extends 'siteoficial/base.html' %} {% block content %} {% load staticfiles %}
+<div class="inner_context_oficina">
+    <div>
+        <img class="logo_seccion_producto" src="{% static 'img/icono_telefono.png' %}" />
+        <p class="titulo_contactenos">Contáctenos</p>
+    </div>
+    <div>
+        <p class="titulo_direccion">Dirección:</p>
+        <p class="texto_direccion">Luis Alberto de Herrera 647 casi Antequera</p>
+    </div>
+    <div>
+        <p class="titulo_direccion">Teléfono:</p>
+        <p class="texto_direccion">+595 21 440 992</p>
+    </div>
+    <div>
+        <p class="titulo_direccion">E-mail:</p>
+        <p class="texto_direccion">ventas@click.com.py</p>
+    </div>
+    <div class="contenedor_izquierdo">
+        <div class="contenedor_contacto">
+            <input class="input_text_contacto" placeholder="Nombre y Apellido">
+            </input>
+        </div>
+        <div class="contenedor_contacto">
+            <input class="input_text_contacto" placeholder="E-mail">
+            </input>
+        </div>
+        <div class="contenedor_contacto">
+            <input class="input_text_contacto" placeholder="Teléfono">
+            </input>
+        </div>
+        <div class="contenedor_contacto">
+            <input class="input_text_contacto" placeholder="Asunto">
+            </input>
+        </div>
+        <div class="contenedor_mensaje">
+            <input class="input_text_mensaje" placeholder="Mensaje">
+            </input>
+        </div>
+    </div>
+    <div class="contenedor_derecha">
+        <img class="imagen_contactos" src="{% static 'img/imagen_contacto.png' %}" />
+    </div>
+</div>
+{% endblock %}

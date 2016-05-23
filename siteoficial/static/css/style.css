@@ -1,0 +1,1235 @@
+   html,
+   body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-size: 100%;
+       outline: 0;
+   }
+   
+   .banner {
+       padding-top: 10px;
+       padding-bottom: 20px;
+       width: 100%;
+   }
+   
+   .menu_nav_wrapper {
+       margin: 0 auto;
+       display: block;
+       vertical-align: middle;
+       width: 950px;
+       position: relative;
+       border-bottom: 2px dashed #fff;
+   }
+   
+   .menu_nav_wrapper2 {
+       margin: 0 auto;
+       display: block;
+       vertical-align: middle;
+       width: 950px;
+       position: relative;
+       border-bottom: 2px dashed #fff;
+   }
+   
+   .logo_header {
+       display: inline-block;
+       margin-left: 0px;
+       padding-top: 22px;
+       float: left;
+   }
+   
+   .contenedor_header_derecha {
+       float: right;
+   }
+   
+   .contenedor_contac_empresa {
+       text-align: right;
+   }
+   
+   .contenedores_productos_slider {
+       width: 219px;
+       display: inline-block;
+       margin: 15px 15px 15px 0px;
+       vertical-align: top;
+   }
+   
+   .contenedores_productos_slider_1 {
+       width: 217px;
+       display: inline-block;
+       margin: 15px 10px 15px 0px;
+       vertical-align: top;
+       border-right: solid #AD9F9E 2px;
+   }
+   
+   .contenedores_productos_slider_1:last-child {
+       border-right: 0;
+   }
+   
+   .texto_titulo_prod_slider {
+       margin: 0;
+       display: inline-block;
+       font-family: tahoma;
+       color: black;
+       font-weight: bold;
+       font-size: 20px;
+       padding-left: 5px;
+       padding-bottom: 15px;
+   }
+   
+   .texto_titulo_prod_slider_2 {
+       margin: 0;
+       font-family: tahoma;
+       color: black;
+       font-weight: bold;
+       font-size: 15px;
+       padding-left: 20px;
+       padding-bottom: 10px;
+       margin-top: 10px;
+   }
+   
+   .img_slider {
+       width: 75% !important;
+       margin: 0 auto;
+       padding-top: 5px;
+   }
+   
+   .contenedor_bordo {
+       background: #BE0411;
+       width: 120px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 15px;
+       float: left;
+   }
+   
+   .contenedor_transparente {
+       width: 120px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0px;
+       float: left;
+   }
+   
+   .img_carrito {
+       width: 48px !important;
+       display: inline-block !important;
+       vertical-align: top;
+       margin: 0;
+       padding-top: 15px;
+       float: left;
+   }
+   
+   .img_carrito_2 {
+       width: 35px !important;
+       display: inline-block !important;
+       vertical-align: top;
+       margin: 0;
+       float: left;
+       padding-top: 5px;
+   }
+   
+   .texto_precios {
+       font-family: tahoma;
+       color: white;
+       font-weight: bold;
+       font-size: 15px;
+       /* margin: 0 auto; */
+       text-align: center;
+   }
+   
+   .texto_precios_negro {
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       /* font-weight: bold; */
+       font-size: 14px;
+       /* margin: 0 auto; */
+       text-align: center;
+   }
+   
+   .cuadritos_header {
+       display: inline-block;
+       padding: 5px;
+       width: 133px;
+       vertical-align: top;
+       border-left: solid #AD9F9E 1px;
+   }
+   
+   .logo_contac_empresa {
+       padding-top: 10px;
+       float: left;
+       padding-left: 5px;
+   }
+   
+   .texto_contac_empresa {
+       color: #AD9F9E;
+       float: left;
+       padding: 6px;
+       font-family: tahoma;
+       font-size: 14px;
+   }
+      .texto_contac_empresa:hover {
+       color: #5D5B62;
+       float: left;
+       padding: 6px;
+       font-family: tahoma;
+       font-size: 14px;
+   }
+   
+   .contenedor_buscar_header {
+       width: 460px;
+       height: 50px;
+       vertical-align: top;
+       border: 1px solid #AD9F9E;
+       border-radius: 5px;
+       /* margin: 0 100px; */
+       margin-top: 10px;
+       position: relative;
+       display: inline-block;
+       float: left;
+   }
+   
+   .logo_lupa {
+       padding-top: 10px;
+   }
+   
+   .input_text {
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 450px;
+       height: 40px;
+       background-color: transparent;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+   }
+   
+   .clear {
+       clear: both;
+   }
+   
+   .index1 {
+       width: 100%;
+       overflow: hidden;
+       background: #EFEFEF;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .final {
+       width: 100%;
+       overflow: hidden;
+       background: #EFEFEF;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .index2 {
+       width: 100%;
+       overflow: hidden;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .index3 {
+       width: 100%;
+       overflow: hidden;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .index4 {
+       width: 100%;
+       overflow: hidden;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .index5 {
+       width: 100%;
+       overflow: hidden;
+       position: relative;
+       /*margin-top: 15px;*/
+       display: block;
+   }
+   
+   .inner-content-index {
+       width: 950px;
+       margin: 0 auto;
+       vertical-align: top;
+       display: block;
+   }
+   
+   .inner-content-flexslider {
+       width: 950px;
+       margin: 0 auto;
+       vertical-align: top;
+       display: block;
+       padding-bottom: 15px;
+       border-bottom: solid black 3px;
+   }
+   
+   .inner-content-footer {
+       width: 950px;
+       margin: 0 auto;
+       vertical-align: top;
+       display: block;
+       padding-bottom: 15px;
+   }
+   
+   .inner-content-footer:last-child {
+       border-top: solid #AD9F9E 1px;
+       border-bottom: solid #AD9F9E 1px;
+   }
+   
+   .cuadritos_opciones {
+       width: 101px;
+       margin-top: 15px;
+       display: inline-block;
+       border-right: solid #AD9F9E 1px;
+       line-height: 0px;
+   }
+   
+   .cuadritos_opciones:last-child {
+       border-right: 0;
+   }
+   
+   .logo_opciones {
+       display: block;
+       margin: 0 auto;
+       /* padding: 10px; */
+       padding-top: 10px
+   }
+   
+   .texto_opciones {
+       display: block;
+       margin: 0;
+       text-align: center;
+       padding-top: 10px;
+       font-family: tahoma;
+       font-size: 14px;
+       color: black;
+   }
+   
+   .texto_suscribirse {
+       display: inline-block;
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       font-size: 13px;
+   }
+   
+   .texto_newsletter {
+       font-family: tahoma;
+       display: inline-block;
+       font-weight: bold;
+       font-size: 13px;
+   }
+   
+   .texto_productos {
+       font-family: tahoma;
+       font-weight: bold;
+       font-size: 13px;
+       padding-left: 10px;
+   }
+   
+   .texto_laempresa {
+       font-family: tahoma;
+       font-weight: bold;
+       font-size: 13px;
+       padding-right: 37px;
+       text-align: right;
+   }
+   
+   .texto_info_contactos {
+       display: inline-block;
+       margin: 0;
+       vertical-align: top;
+       padding-top: 25px;
+       padding-left: 5px;
+       font-size: 13px;
+       font-family: tahoma;
+       font-weight: bold;
+   }
+   
+   .texto_titulo_producto {
+       margin: 0;
+       display: inline-block;
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       font-size: 25px;
+   }
+   
+   .texto_maspopulares {
+       margin: 0;
+       display: inline-block;
+       font-family: tahoma;
+       color: black;
+       font-weight: bold;
+       font-size: 25px;
+       padding-left: 5px;
+   }
+   
+   .contenedor_footer {
+       display: inline-block;
+       width: 350px;
+       vertical-align: top;
+   }
+   
+   .contenedor_productos_footer {
+       display: inline-block;
+       width: 270px;
+       margin-left: 10px;
+   }
+   
+   .contenedor_empresa_footer {
+       display: inline-block;
+       width: 260px;
+       float: right;
+   }
+   
+   .contenedor_productos {
+       display: inline-block;
+       width: 127px;
+       border-bottom: solid #AD9F9E 1px;
+       margin-left: 6px;
+       padding-bottom: 7px;
+   }
+   
+   .contenedor_empresa {
+       width: 135px;
+       border-bottom: solid #AD9F9E 1px;
+       float: right;
+       padding-bottom: 7px;
+   }
+   
+   .contenedor_info_contactos {
+       width: 233px;
+       display: inline-block;
+       margin: 0px auto;
+       border-right: solid #AD9F9E 1px;
+       margin-top: 15px;
+       height: 85px;
+       vertical-align: top;
+   }
+   
+   .contenedor_info_contactos:last-child {
+       border-right: 0;
+   }
+   
+   .iconos_info_contactos {
+       padding-top: 10px;
+       padding-left: 12px;
+       display: inline-block;
+   }
+   
+   .input_text_newsletter {
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 330px;
+       height: 35px;
+       background-color: white;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+   }
+   
+   .contenedor_newsletter {
+       width: 340px;
+       height: 35px;
+       vertical-align: top;
+       border-radius: 5px;
+       /* margin: 0 100px; */
+       margin-top: 5px;
+       position: relative;
+       display: inline-block;
+       float: left;
+       margin-bottom: 6px;
+   }
+   
+   .vinhetas_color_footer {
+       display: inline-block;
+       vertical-align: top;
+       padding-top: 5px;
+   }
+   
+   .texto_productos_footer {
+       color: #AD9F9E;
+       font-family: tahoma;
+       display: inline-block;
+       vertical-align: top;
+       font-size: 13px;
+       margin: 0px;
+       padding-top: 5px;
+   }
+
+      .texto_productos_footer:hover {
+       color: #5D5B62;
+       font-family: tahoma;
+       display: inline-block;
+       vertical-align: top;
+       font-size: 13px;
+       margin: 0px;
+       padding-top: 5px;
+   }
+   
+   .texto_localidad {
+       padding-left: 72px;
+       margin: 0;
+       font-size: 12px;
+       font-family: tahoma;
+       color: #AD9F9E;
+   }
+   
+   .buttom_enviar {
+       /* margin-left: 308px; */
+       /* margin-top: 210px; */
+       /* margin-top: 13px; */
+       float: right;
+       margin-right: 10px;
+       /* width: 150px; */
+   }
+   /****************************************************************************************************/
+   /*                                           PAGINA OFICINA                                       */
+   /***************************************************************************************************/
+   
+   .menu_izquierda {
+       background: #EFEFEF;
+       width: 235px;
+       display: inline-block;
+       margin-top: 10px;
+   }
+   
+   .contenedor_derecha2 {
+       display: inline-block;
+       margin-top: 10px;
+       width: 710px;
+       vertical-align: top;
+   }
+   
+   .inner_context_oficina {
+       width: 950px;
+       margin: 0 auto;
+       vertical-align: top;
+       display: block;
+       margin-bottom: 15px;
+   }
+   
+   .logo_menu_izq {
+       display: inline-block;
+       margin: 15px 0 0 15px;
+   }
+   
+   .texto_titulos_menu_izq {
+       display: inline-block;
+       vertical-align: top;
+       font-family: tahoma;
+       margin: 25px 0px 0px 5px;
+       font-weight: bold;
+       font-size: 16px;
+   }
+   
+   .subcategorias {
+       margin: 0 auto;
+       display: block;
+       width: 200px;
+       border-bottom: 2px solid #808080;
+       vertical-align: top;
+   }
+   
+   .rombo {
+       vertical-align: top;
+       /* padding-left: 15px; */
+       margin-left: 19px;
+       margin-top: 17px;
+       display: inline-block;
+       width: 12px;
+       height: 12px;
+       /*border: 3px solid #555; */
+       background: #808080;
+       -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+       -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+       transform: rotate(45deg);
+   }
+   
+   .rombo:hover {
+       vertical-align: top;
+       /* padding-left: 15px; */
+       margin-left: 19px;
+       margin-top: 17px;
+       display: inline-block;
+       width: 12px;
+       height: 12px;
+       /*border: 3px solid #555; */
+       background: #001D7E;
+       -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+       -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+       transform: rotate(45deg);
+   }
+   
+   .titulos_subcategorias {
+       display: inline-block;
+       vertical-align: top;
+       padding-left: 10px;
+       padding-top: 2px;
+       font-size: 13px;
+       font-family: tahoma;
+   }
+
+      .titulos_subcategorias:hover {
+       display: inline-block;
+       vertical-align: top;
+       padding-left: 10px;
+       padding-top: 2px;
+       font-size: 13px;
+       font-family: tahoma;
+       color: #5D5B62;
+   }
+   
+   .texto_producto_interna {
+       margin: 15px 0 0 0;
+       display: inline-block;
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       font-size: 18px;
+   }
+   
+   .texto_maspopulares_interna {
+       margin: 0;
+       display: inline-block;
+       font-family: tahoma;
+       color: black;
+       font-weight: bold;
+       font-size: 18px;
+       padding-left: 2px;
+   }
+   
+   .contenedores_productos_slider_interna {
+       width: 175px;
+       display: inline-block;
+       margin: 15px 10px 15px 0px;
+       vertical-align: top;
+       border-right: solid #AD9F9E 2px;
+   }
+   
+   .contenedores_productos_slider_interna:last-child {
+       border-right: 0;
+   }
+   
+   .img_slider_interna {
+       width: 70% !important;
+       margin: 0 auto;
+       padding-top: 5px;
+   }
+   
+   .contenedor_trans_interna {
+       width: 105px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0px;
+       float: left;
+   }
+   
+   .texto_precios_bordo_int {
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       /* font-weight: bold; */
+       font-size: 12px;
+       /* margin: 0 auto; */
+       text-align: center;
+   }
+   
+   .img_carrito_interna {
+       width: 30px !important;
+       display: inline-block !important;
+       vertical-align: top;
+       margin: 0;
+       float: left;
+       padding-top: 5px;
+   }
+   
+   .contenedores_productos_interna {
+       width: 190px;
+       display: inline-block;
+       margin: 15px 15px 15px 15px;
+       vertical-align: top;
+       float: right;
+   }
+   
+   .contenedor_bordo_precio_interna {
+       background: #BE0411;
+       width: 110px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 15px;
+       float: left;
+   }
+   
+   .img_carrito_interna_2 {
+       width: 38px !important;
+       display: inline-block !important;
+       vertical-align: top;
+       margin: 0;
+       padding-top: 15px;
+       float: left;
+   }
+   
+   .texto_precios_interna {
+       font-family: tahoma;
+       color: white;
+       font-weight: bold;
+       font-size: 12px;
+       /* margin: 0 auto; */
+       text-align: center;
+   }
+   
+   .img_slider_interna {
+       width: 75% !important;
+       margin: 0 auto;
+       padding-top: 5px;
+       padding-left: 25px;
+   }
+   
+   .ul_slider {
+       list-style: none;
+   }
+   /****************************************************************************************************/
+   /*                                         DESCRIPCION PRODUCTOS                                     */
+   /***************************************************************************************************/
+   
+   .titulo_detalle_producto {
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 22px;
+       padding-left: 10px;
+       font-size: 20px;
+       font-family: tahoma;
+       font-weight: bold;
+   }
+   
+   .logo_seccion_producto {
+       display: inline-block;
+       vertical-align: top;
+       margin: 15px 0 0 10px;
+   }
+   
+   .lado_izquierdo {
+       width: 200px;
+       display: inline-block;
+       /* float: left; */
+       vertical-align: top;
+       margin-top: 8px;
+       /* margin: 10px 0 0 20px; */
+   }
+   
+   .lado_derecho {
+       width: 700px;
+       vertical-align: top;
+       display: inline-block;
+       margin-left: 15px;
+   }
+   
+   .img_produc {
+       float: right;
+   }
+   
+   .texto_descr_producto {
+       font-family: tahoma;
+       font-size: 20px;
+       margin: 0 0 0 0;
+       padding-left: 40px;
+   }
+   
+   .texto_carac_producto {
+       padding-left: 40px;
+       padding-top: 5px;
+       width: 550px;
+       margin: 0 0 0 0;
+       font-size: 11px;
+       font-family: tahoma;
+   }
+   
+   .context_gral {
+       position: relative;
+   }
+   
+   .bordo_precio {
+       background: #BE0411;
+       width: 200px;
+       margin-left: 40px;
+       margin-top: 15px;
+   }
+   
+   .precio_producto {
+       font-family: tahoma;
+       font-weight: bold;
+       color: white;
+       padding: 0px 0 5px 10px;
+       margin: 0 0 0 0;
+       font-size: 20px;
+   }
+   
+   .texto_precio_produc {
+       font-family: tahoma;
+       margin: 0 0 0 0;
+       color: white;
+       padding: 5px 0 5px 10px;
+   }
+   
+   .texto_precio_normal {
+       margin: 0 0 0 0;
+       padding: 10px 0 2px 40px;
+       font-family: tahoma;
+       font-weight: bold;
+       font-size: 11px;
+   }
+   
+   .precio_real_producto {
+       margin: 0 0 0 0;
+       padding: 0px 0 5px 40px;
+       font-family: tahoma;
+       font-size: 15px;
+   }
+   
+   .texto_cantidad {
+       margin: 0 0 0 0;
+       padding: 15px 0 10px 40px;
+       font-size: 11px;
+       font-family: tahoma;
+       font-weight: bold;
+       display: inline-block;
+   }
+   
+   .contenedor_cantidad {
+       width: 35px;
+       height: 20px;
+       vertical-align: top;
+       border: 1px solid #AD9F9E;
+       margin-top: 12px;
+       position: relative;
+       display: inline-block;
+   }
+   
+   .input_cantidad {
+       border: 0;
+       padding: 3px;
+       position: relative;
+       width: 29px;
+       height: 14px;
+       background-color: transparent;
+       font-size: 12px;
+       font-family: tahoma;
+       color: black;
+       text-align: right;
+   }
+   
+   .contenedor_mas_menos {
+       display: inline-block;
+       width: 50px;
+   }
+   
+   .cont_button_mas_menos {
+       width: 20px;
+       background: #009BDB;
+   }
+   
+   .button_agregar_carrito {
+       margin-left: 70px;
+       background: #009BDB;
+       width: 180px;
+       display: inline-block;
+       vertical-align: top;
+   }
+  .button_agregar_carrito:hover {
+       margin-left: 70px;
+       background: #025DB7;
+       width: 180px;
+       display: inline-block;
+       vertical-align: top;
+   }
+   .texto_agregar_carrito {
+       margin: 0 0 0 0;
+       display: inline-block;
+       padding: 15px 0 0 6px;
+       vertical-align: top;
+       font-family: tahoma;
+       color: white;
+       font-weight: bold;
+       font-size: 14px;
+   }
+   
+   .img_agregar_carrito {
+       display: inline-block;
+           padding-left: 35px;
+   }
+   
+   .contenedores_producto_relacionado {
+       width: 165px;
+       display: inline-block;
+       margin: 15px 10px 15px 0px;
+       vertical-align: top;
+   }
+   
+   .img_art_relacionados {
+       width: 50% !important;
+       margin: 0 auto;
+       padding-top: 5px;
+       display: block;
+   }
+   
+   .texto_titulo_prod_relacionado {
+       margin: 0;
+       font-family: tahoma;
+       color: black;
+       font-weight: bold;
+       font-size: 12px;
+       padding-left: 20px;
+       padding-bottom: 0px;
+       margin-top: 10px;
+   }
+   
+   .mas_product_relacionado {
+       margin-left: 20px;
+       margin-top: 65px;
+       margin-right: 20px;
+   }
+   
+   .produc_relacionado_derecha {
+       width: 400px;
+       display: inline-block;
+   }
+   
+   .produc_relacionado_izq {
+       width: 455px;
+       display: inline-block;
+   }
+   /****************************************************************************************************/
+   /*                                       PAGINA CONTACTENOS                                     */
+   /***************************************************************************************************/
+   
+   .inner_context_contactos {
+       width: 950px;
+       margin: 0 auto;
+       vertical-align: top;
+       display: block;
+   }
+   
+   .titulo_contactenos {
+       display: inline-block;
+       vertical-align: top;
+       margin: 27px 0 0 0;
+       padding-left: 10px;
+       font-size: 20px;
+       font-family: tahoma;
+       font-weight: bold;
+   }
+   
+   .titulo_direccion {
+       margin: 0 0 0 0;
+       display: inline-block;
+       font-family: tahoma;
+       font-weight: bold;
+       font-size: 13px;
+       padding-left: 74px;
+   }
+   
+   .texto_direccion {
+       margin: 0 0 0 0;
+       display: inline-block;
+       font-family: tahoma;
+       /* font-weight: bold; */
+       font-size: 13px;
+   }
+   
+   .contenedor_izquierdo {
+       width: 450px;
+       display: inline-block;
+   }
+   
+   .contenedor_derecha {
+       width: 380px;
+       display: inline-block;
+   }
+   
+   .contenedor_contacto {
+       width: 370px;
+       height: 30px;
+       vertical-align: top;
+       /* margin: 0 100px; */
+       margin-top: 8px;
+       margin-left: 70px;
+       position: relative;
+       display: inline-block;
+       float: left;
+       background: #EBEBEB;
+   }
+   
+   .input_text_contacto {
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 359px;
+       height: 20px;
+       background-color: transparent;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+   }
+   
+   .contenedor_mensaje {
+       width: 370px;
+       height: 130px;
+       vertical-align: top;
+       /* margin: 0 100px; */
+       margin-top: 8px;
+       margin-left: 70px;
+       position: relative;
+       display: inline-block;
+       float: left;
+       background: #EBEBEB;
+   }
+   
+   .input_text_mensaje {
+       vertical-align: top;
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 359px;
+       height: 119px;
+       background-color: transparent;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+       /* margin-top: 10px; */
+   }
+   
+   .imagen_contactos {
+       width: 95%;
+       /* padding-top: 100px; */
+       padding-left: 80px;
+       /* float: left; */
+   }
+   /****************************************************************************************************/
+   /*                                       PAGINA REGISTRO USUARIO                                 */
+   /***************************************************************************************************/
+   
+   .contenedor_izquierdo_registro {
+       width: 580px;
+       display: inline-block;
+   }
+   
+   .contenedor_derecha_registro {
+       width: 365px;
+       display: inline-block;
+       vertical-align: top;
+   }
+   
+   .imagen_registro {
+       width: 85%;
+       padding-top: 100px;
+       padding-left: 34px;
+   }
+   
+   .contenedor_datos_registro {
+       width: 390px;
+       height: 30px;
+       vertical-align: top;
+       /* margin: 0 100px; */
+       margin-top: 10px;
+       position: relative;
+       display: inline-block;
+       background: #EBEBEB;
+   }
+   
+   .input_text_registro {
+       vertical-align: top;
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 380px;
+       height: 20px;
+       background-color: transparent;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+       /* margin-top: 10px; */
+   }
+   
+   .texto_datos_registro {
+       width: 127px;
+       text-align: right;
+       margin: 0 0 0 0;
+       display: inline-block;
+       vertical-align: top;
+       margin-left: 12px;
+       font-family: tahoma;
+       font-size: 13px;
+       padding-top: 15px;
+       padding-right: 10px;
+   }
+   /****************************************************************************************************/
+   /*                                       PAGINA LOGIN                                    */
+   /***************************************************************************************************/
+   
+   .contenedor_login {
+       width: 370px;
+       height: 30px;
+       vertical-align: top;
+       /* margin: 0 100px; */
+       position: relative;
+       margin: 10px auto;
+       display: block;
+       background: #EBEBEB;
+   }
+   
+   .img_login {
+       margin: 0 auto;
+       display: block;
+       width: 30%;
+       padding-top: 50px;
+       padding-bottom: 30px;
+   }
+   
+   .input_text_login {
+       border: 0;
+       padding: 5px;
+       position: relative;
+       width: 359px;
+       height: 20px;
+       background-color: transparent;
+       font-size: 14px;
+       font-family: tahoma;
+       color: #AD9F9E;
+   }
+   /****************************************************************************************************/
+   /*                                       Pagina INSTITUCIONAL                                   */
+   /***************************************************************************************************/
+   
+   .img_logo_institucional {
+       margin: 0 auto;
+       display: block;
+       width: 40%;
+   }
+   
+   .texto_cabecera {
+       margin: 0 auto;
+       /* margin: 0 0 0 0; */
+       font-family: tahoma;
+       font-size: 12px;
+       width: 850px;
+       text-align: center;
+       padding: 20px 0 25px 0px;
+       display: block;
+       color: #AD9F9E;
+   }
+   
+   .texto_titulos_institucional {
+       margin: 0 0 0 0;
+       font-size: 18px;
+       font-family: tahoma;
+       padding-bottom: 10px;
+       font-weight: bold;
+       vertical-align: top;
+   }
+   
+   .texto_parrafo_institucional {
+       margin: 0 0 0 0;
+       vertical-align: top;
+       font-family: tahoma;
+       font-size: 12px;
+       color: #AD9F9E;
+   }
+   
+   .izquierda_fotografia {
+       width: 330px;
+       display: inline-block;
+       padding-left: 50px;
+       padding-right: 10px;
+   }
+   
+   .derecha_texto {
+       width: 500px;
+       display: inline-block;
+   }
+   
+   .img_derecha {
+       width: 100%;
+       margin: 0 auto;
+       display: block;
+   }
+   
+   .izquierda_texto {
+       width: 500px;
+       display: inline-block;
+       padding-left: 50px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+   }
+   
+   .texto_fabrica {
+       margin: 0 0 0 0;
+       font-size: 18px;
+       font-family: tahoma;
+       padding-bottom: 10px;
+       font-weight: bold;
+       text-align: center;
+       vertical-align: top;
+   }
+   
+   .derecha_fotografia {
+       width: 330px;
+       display: inline-block;
+   }
+   
+   .cont_fabrica {
+       width: 330px;
+       display: inline-block;
+       padding-left: 50px;
+       padding-right: 10px;
+   }
+   
+   .conte_imagen_fabrica {
+       width: 850px;
+       /* padding-left: 50px; */
+       /* padding-right: 10px; */
+       margin: 0 auto;
+       display: block;
+   }
+   /****************************************************************************************************/
+   /*                                       Pagina EXPORTACION                                  */
+   /***************************************************************************************************/
+   
+   .contenedores_productos_interna_2 {
+       width: 190px;
+       display: inline-block;
+       margin: 15px 15px 15px 15px;
+       vertical-align: top;
+   }
+   
+   .texto_titulo_exportacion {
+       margin: 10px 0 0px 20px;
+       display: inline-block;
+       font-family: tahoma;
+       color: #BE0411;
+       font-weight: bold;
+       font-size: 20px;
+   }
+
+   .a_type{
+    text-decoration: none;
+   }

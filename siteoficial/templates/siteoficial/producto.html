@@ -1,0 +1,188 @@
+{% extends 'siteoficial/base.html' %} {% block content %} {% load staticfiles %}
+<div class="index5">
+    <div class="inner_context_oficina">
+        <div>
+            <img class="logo_seccion_producto" src="{% static 'img/icono_oficina.png' %}" />
+            <p class="titulo_detalle_producto">Porta Lápiz</p>
+        </div>
+        <div class="context_gral">
+            <div class="lado_izquierdo">
+                <img class="img_produc" src="{% static 'img/lapicera.png' %}" />
+            </div>
+            <div class="lado_derecho">
+                <p class="texto_descr_producto">Descripción</p>
+                <p class="texto_carac_producto"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="bordo_precio">
+                    <p class="texto_precio_produc">Precio:</p>
+                    <p class="precio_producto">Gs. 1500</p>
+                </div>
+                <p class="texto_precio_normal">Precio Normal:</p>
+                <p class="precio_real_producto">Gs. 2350</p>
+                <p class="texto_cantidad">Cantidad:</p>
+                <div class="contenedor_cantidad">
+                    <input class="input_cantidad">
+                    </input>
+                </div>
+                <!--<div class="contenedor_mas_menos">
+                    <div class="cont_button_mas_menos">
+                        <p>+</p>
+                    </div>
+                    <div class="cont_button_mas_menos">
+                        <p>+</p>
+                    </div>
+                </div>-->
+                <img class="img_agregar_carrito" src="{% static 'img/boton_agregar_a_carrito.png' %}"  onmouseover="this.src='{% static 'img/boton_agregar_a_carrito_0.png' %}';" onmouseout="this.src='{% static 'img/boton_agregar_a_carrito.png' %}';" />
+            </div>
+        </div>
+    </div>
+    <div class="inner_context_oficina">
+        <p class="texto_producto_interna">PRODUCTOS</p>
+        <p class="texto_maspopulares_interna">RELACIONADOS</p>
+        <div>
+            <div class="produc_relacionado_izq">
+                <div class="contenedores_producto_relacionado">
+                    <img class="img_art_relacionados" src="{% static 'img/lapicera.png' %}" />
+                    <p class="texto_titulo_prod_relacionado">Agendas</p>
+                    <div class="contenedor_trans_interna">
+                        <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                    </div>
+                    <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                    <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                </div>
+                <img class="mas_product_relacionado" src="{% static 'img/icono_mas.png' %}" />
+                <div class="contenedores_producto_relacionado">
+                    <img class="img_art_relacionados" src="{% static 'img/lapicera.png' %}" />
+                    <p class="texto_titulo_prod_relacionado">Agendas</p>
+                    <div class="contenedor_trans_interna">
+                        <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                    </div>
+                    <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                    <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                </div>
+            </div>
+            <div class="produc_relacionado_derecha">
+                <p class="texto_precio_normal">Precio de ambos productos:</p>
+                <p class="precio_real_producto">Gs. 2350</p>
+                <p class="texto_cantidad">Cantidad:</p>
+                <div class="contenedor_cantidad">
+                    <input class="input_cantidad">
+                    </input>
+                </div>
+                <!--<div class="contenedor_mas_menos">
+                    <div class="cont_button_mas_menos">
+                        <p>+</p>
+                    </div>
+                    <div class="cont_button_mas_menos">
+                        <p>+</p>
+                    </div>
+                </div>-->
+                <img class="img_agregar_carrito" src="{% static 'img/boton_agregar_a_carrito.png' %}"  onmouseover="this.src='{% static 'img/boton_agregar_a_carrito_0.png' %}';" onmouseout="this.src='{% static 'img/boton_agregar_a_carrito.png' %}';" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="index4">
+    <div class="inner-content-index">
+        <p class="texto_producto_interna">PRODUCTOS</p>
+        <p class="texto_maspopulares_interna">MÁS POPULARES</p>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                    <div class="contenedores_productos_slider_interna">
+                        <img class="img_slider_interna" src="{% static 'img/lapicera.png' %}" />
+                        <p class="texto_titulo_prod_slider_2">Agendas</p>
+                        <div class="contenedor_trans_interna">
+                            <p class="texto_precios_bordo_int">Gs. 192.000</p>
+                        </div>
+                        <img class="img_carrito_interna" src="{% static 'img/boton_carrito.png' %}" />
+                        <img class="img_carrito_interna" src="{% static 'img/boton_mas.png' %}" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
