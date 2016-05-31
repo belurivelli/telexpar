@@ -39,25 +39,39 @@
                 <div class="contenedor_contac_empresa">
                     <div class="cuadritos_header">
                         <a class="a_type" href="{% url 'siteoficial.views.institucional' %}">
-                            <img class="logo_contac_empresa" src="{% static 'img/icono_empresa.png' %}" onmouseover="this.src='{% static 'img/icono_empresa_0.png' %}';" onmouseout="this.src='{% static 'img/icono_empresa.png' %}';" />
+                            <div class="header-cuadros">
+                                <div class="empresa-telexpar-header">
+                                </div>
+                            </div>
                             <p class="texto_contac_empresa">La empresa</p>
                         </a>
                     </div>
                     <div class="cuadritos_header">
                         <a class="a_type" href="{% url 'siteoficial.views.exportacion' %}">
-                            <img class="logo_contac_empresa" src="{% static 'img/icono_exportacion.png' %}" onmouseover="this.src='{% static 'img/icono_exportacion_0.png' %}';" onmouseout="this.src='{% static 'img/icono_exportacion.png' %}';" />
+                            <div class="header-cuadros">
+                                <div class="exportacion-telexpar-header">
+                                </div>
+                            </div>
                             <p class="texto_contac_empresa">Exportación</p>
                         </a>
                     </div>
                     <div class="cuadritos_header">
                         <a class="a_type" href="{% url 'siteoficial.views.contactos' %}">
-                            <img class="logo_contac_empresa" src="{% static 'img/icono_contactos.png' %}" onmouseover="this.src='{% static 'img/icono_contactos_0.png' %}';" onmouseout="this.src='{% static 'img/icono_contactos.png' %}';"/>
+                            <div class="header-cuadros">
+                                <div class="contactos-telexpar-header">
+                                </div>
+                            </div>
+                            
                             <p class="texto_contac_empresa">Contactos</p>
+                            <div class="clear"></div>
                         </a>
                     </div>
                     <div class="cuadritos_header">
                         <a class="a_type" href="{% url 'siteoficial.views.login' %}">
-                            <img class="logo_contac_empresa" src="{% static 'img/icono_login.png' %}" onmouseover="this.src='{% static 'img/icono_login_0.png' %}';" onmouseout="this.src='{% static 'img/icono_login.png' %}';"/>
+                            <div class="header-cuadros">
+                                <div class="login-telexpar-header">
+                                </div>
+                            </div>
                             <p class="texto_contac_empresa">Login</p>
                         </a>
                     </div>
@@ -67,61 +81,71 @@
                         <input class="input_text" placeholder="Buscar">
                     </div>
                 </div>
-                <img class="logo_lupa" src="{% static 'img/boton_buscar.png' %}"  onmouseover="this.src='{% static 'img/boton_buscar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_buscar.png' %}';" />
+                <img class="logo_lupa" src="{% static 'img/boton_buscar.png' %}" onmouseover="this.src='{% static 'img/boton_buscar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_buscar.png' %}';" />
             </div>
             <div class="clear"></div>
             <div class="menu_nav_wrapper2">
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.index' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_inicio.png' %}" onmouseover="this.src='{% static 'img/icono_inicio_0.png' %}';" onmouseout="this.src='{% static 'img/icono_inicio.png' %}';" />
+                        <div class="inicio-telexpar-header">
+                        </div>
+                        <!--<img class="logo_opciones" src="{% static 'img/icono_inicio.png' %}" onmouseover="this.src='{% static 'img/icono_inicio_0.png' %}';" onmouseout="this.src='{% static 'img/icono_inicio.png' %}';" />-->
                         <p class="texto_opciones">Inicio</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_oficina.png' %}" onmouseover="this.src='{% static 'img/icono_oficina_0.png' %}';" onmouseout="this.src='{% static 'img/icono_oficina.png' %}';" />
+                        <div class="oficina-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Oficina</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_escolar.png' %}" onmouseover="this.src='{% static 'img/icono_escolar_0.png' %}';" onmouseout="this.src='{% static 'img/icono_escolar.png' %}';" />
+                        <div class="escolar-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Escolar</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_informatica.png' %}" onmouseover="this.src='{% static 'img/icono_informatica_0.png' %}';" onmouseout="this.src='{% static 'img/icono_informatica.png' %}';" />
+                        <div class="informatica-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Informática</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_limpieza.png' %}" onmouseover="this.src='{% static 'img/icono_limpieza_0.png' %}';" onmouseout="this.src='{% static 'img/icono_limpieza.png' %}';" />
+                        <div class="limpieza-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Limpieza</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_juguetes.png' %}" onmouseover="this.src='{% static 'img/icono_juguetes_0.png' %}';" onmouseout="this.src='{% static 'img/icono_juguetes.png' %}';" />
+                        <div class="juguetes-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Juguetes</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_regalos.png' %}" onmouseover="this.src='{% static 'img/icono_regalos_0.png' %}';" onmouseout="this.src='{% static 'img/icono_regalos.png' %}';" />
+                        <div class="cotillon-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Cotillón</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_ferreteria.png' %}" onmouseover="this.src='{% static 'img/icono_ferreteria_0.png' %}';" onmouseout="this.src='{% static 'img/icono_ferreteria.png' %}';"/>
+                        <div class="ferreteria-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Ferretería</p>
                     </a>
                 </div>
                 <div class="cuadritos_opciones">
                     <a class="a_type" href="{% url 'siteoficial.views.oficina' %}">
-                        <img class="logo_opciones" src="{% static 'img/icono_imprentas.png' %}" onmouseover="this.src='{% static 'img/icono_imprentas_0.png' %}';" onmouseout="this.src='{% static 'img/icono_imprentas.png' %}';"/>
+                        <div class="personalizado-telexpar-header">
+                        </div>
                         <p class="texto_opciones">Personalizado</p>
                     </a>
                 </div>
@@ -146,7 +170,7 @@
                                 <input class="input_text_newsletter" placeholder="e-mail">
                             </div>
                         </div>
-                        <input type="image" class="buttom_enviar" src="{% static 'img/boton_enviar.png' %}"  onmouseover="this.src='{% static 'img/boton_enviar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_enviar.png' %}';">
+                        <input type="image" class="buttom_enviar" src="{% static 'img/boton_enviar.png' %}" onmouseover="this.src='{% static 'img/boton_enviar_0.png' %}';" onmouseout="this.src='{% static 'img/boton_enviar.png' %}';">
                     </form>
                 </div>
                 <div class="contenedor_productos_footer">
@@ -198,8 +222,8 @@
                     <p class="texto_laempresa">INSTITUCIONAL</p>
                     <div class="contenedor_empresa">
                         <a class="a_type" href="{% url 'siteoficial.views.institucional' %}">
-                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
-                        <p class="texto_productos_footer">La Empresa</p>
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                            <p class="texto_productos_footer">La Empresa</p>
                         </a>
                     </div>
                     <!--<div class="contenedor_empresa">
@@ -212,20 +236,20 @@
                     </div>-->
                     <div class="contenedor_empresa">
                         <a class="a_type" href="{% url 'siteoficial.views.exportacion' %}">
-                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
-                        <p class="texto_productos_footer">Exportacion</p>
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                            <p class="texto_productos_footer">Exportacion</p>
                         </a>
                     </div>
                     <div class="contenedor_empresa">
                         <a class="a_type" href="{% url 'siteoficial.views.contactos' %}">
-                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
-                        <p class="texto_productos_footer">Contactos</p>
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                            <p class="texto_productos_footer">Contactos</p>
                         </a>
                     </div>
                     <div class="contenedor_empresa">
                         <a class="a_type" href="{% url 'siteoficial.views.login' %}">
-                        <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
-                        <p class="texto_productos_footer">Login</p>
+                            <img class="vinhetas_color_footer" src="{% static 'img/vineta_negra.png' %}" />
+                            <p class="texto_productos_footer">Login</p>
                         </a>
                     </div>
                 </div>
